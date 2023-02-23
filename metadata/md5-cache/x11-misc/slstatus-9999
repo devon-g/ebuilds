@@ -1,0 +1,14 @@
+BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst prepare unpack
+DEPEND=x11-libs/libX11 x11-libs/libXft x11-base/xorg-proto
+DESCRIPTION=A suckless status monitor for window managers.
+EAPI=8
+HOMEPAGE=https://tools.suckless.org/slstatus/
+INHERIT=savedconfig git-r3
+IUSE=savedconfig
+LICENSE=ISC
+PROPERTIES=live
+RDEPEND=x11-libs/libX11 x11-libs/libXft
+SLOT=0
+_eclasses_=portability	58227860123d3e8da23290064ce3373e	savedconfig	4011d8d7370446e970e2c92b20a31341	git-r3	2347f8fe2d392b2a091191f94be37e6f
+_md5_=c772296216e925d1d6489cccc2e31220
